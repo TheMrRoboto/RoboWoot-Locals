@@ -1,0 +1,104 @@
+{
+  "panel": {
+    "close": "Close",
+    "automation": "Automation",
+    "customization": "Customization",
+    "status": "Status",
+    "autoWoot": "Auto Woot",
+    "autoWootHint": "Woot each new track automatically (30s delay)",
+    "autoGrab": "Auto Grab",
+    "autoGrabHint": "After a woot: grab now on enable, then 5s delay on later tracks",
+    "playlist": "Playlist",
+    "grabPlaylist": "Grab playlist",
+    "loading": "Loading…",
+    "loadingPlaylists": "Loading playlists…",
+    "randomPlaylist": "Random Playlist",
+    "randomPlaylistHint": "Activate a random selected playlist when you are next / DJ",
+    "playlistsToShuffle": "Playlists to shuffle",
+    "autoJoin": "Auto Join",
+    "autoJoinHint": "Join the DJ queue when you are not in it",
+    "afk": "AFK Auto-Reply",
+    "afkHint": "Reply when mentioned (1 min cooldown)",
+    "afkMessage": "AFK reply message",
+    "afkFieldHint": "Use {user} for their username (default includes @). 1 min cooldown between replies.",
+    "roomRules": "Room Rules",
+    "roomRulesHint": "Apply stylesheet from @rw= room config",
+    "customCss": "Custom CSS",
+    "customCssHint": "Inject the CSS below into the page",
+    "customCssNote": "Saved in this browser. Applied when Custom CSS is on (independent of Room Rules).",
+    "cssPlaceholder": "/* your CSS */",
+    "websocket": "WebSocket",
+    "activeUnique": "Active / Unique",
+    "rulesUrl": "Room Rules URL",
+    "rulesCss": "Room Rules CSS",
+    "blocked": "Disabled by room rules"
+  },
+  "playlists": {
+    "select": "Select a playlist…",
+    "none": "No playlists found",
+    "noneDot": "No playlists found.",
+    "grabReady": "Tracks are saved into the selected playlist. Auto Grab runs after a woot.",
+    "signIn": "Sign in and create a playlist, then reopen RoboWoot to refresh.",
+    "loadFailed": "Could not load playlists from api.wavez.fm (are you signed in?).",
+    "randomReady": "One of the checked lists is activated at random when you are next, and again during each of your DJ tracks (including solo).",
+    "randomNeed": "Check at least one playlist that has tracks, then enable Random Playlist.",
+    "chooseBeforeGrab": "Choose a playlist before enabling Auto Grab."
+  },
+  "status": {
+    "offline": "offline",
+    "connected": "connected",
+    "connecting": "connecting",
+    "reconnecting": "reconnecting",
+    "none": "none",
+    "on": "on",
+    "off": "off",
+    "counts": "{active} active · {unique} unique",
+    "woot": "woot",
+    "join": "join",
+    "afk": "afk"
+  },
+  "votes": {
+    "woot": "Wooted by",
+    "meh": "Meh’d by",
+    "grab": "Grabbed by",
+    "loading": "Loading…",
+    "empty": "Nobody yet"
+  },
+  "chat": {
+    "error": "[ERROR]",
+    "broadcast": "[BROADCAST]",
+    "notAllowed": "Not allowed.",
+    "usageBroadcast": "Usage: /broadcast {message}",
+    "wsOffline": "RoboWoot websocket offline.",
+    "broadcastFailed": "Broadcast failed to send.",
+    "forceFailed": "Force Room Rules failed to send.",
+    "forceSent": "Force Room Rules ({scope}) sent.",
+    "forceRequested": "Room Rules force-reload requested by {who}, but Room Rules is not ready.",
+    "forceReloaded": "Room Rules force-reloaded by {who} ({code}).",
+    "forceReloadFailed": "Room Rules force-reload by {who} failed: {code}",
+    "stats": "Active RoboWoot clients: {active} | Unique: {unique}",
+    "developer": "a developer",
+    "ok": "ok",
+    "errorCode": "error"
+  },
+  "scope": {
+    "room": "room",
+    "site": "site"
+  },
+  "slash": {
+    "open": "Open RoboWoot settings",
+    "reload": "Reload Room Rules from this room",
+    "broadcast": "Room-wide RoboWoot broadcast",
+    "sbroadcast": "Site-wide RoboWoot broadcast",
+    "stats": "Active / unique RoboWoot client counts",
+    "forcerw": "Force Room Rules reload (this room)",
+    "sforcerw": "Force Room Rules reload (site-wide)",
+    "message": "<message>"
+  },
+  "tag": {
+    "dev": "RoboWoot Dev"
+  },
+  "afk": {
+    "default": "@{user} I'm AFK right now."
+  }
+}
